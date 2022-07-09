@@ -1,4 +1,4 @@
-public class Bubble{
+public class Bubble extends MainClass{
 
     public int[] bubbleSort(int[] array){
         
@@ -17,14 +17,6 @@ public class Bubble{
         }
 
         return array;
-    }
-
-    public String toString(int[] array){
-        String output = "";
-        for(int i = 0; i < array.length; i++){
-            output += "["+ array[i] +"] ";
-        }
-        return output;
     }
 
     public static void main(String args[]){
